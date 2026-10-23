@@ -1,0 +1,9 @@
+test-profile/
+test-addon/
+test-data/
+research/
+__pycache__/
+*.log
+*.sqlite*
+dist/*
+!dist/zotero-feed-zh-*.xpi

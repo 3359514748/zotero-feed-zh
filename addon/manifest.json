@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "订阅摘要中文助手",
+  "version": "0.1.0",
+  "description": "点击订阅论文，在右侧查看中文标题、中文摘要与基于关键词的方向提示。无需加入文库。",
+  "author": "3359514748",
+  "homepage_url": "https://github.com/3359514748/zotero-feed-zh",
+  "applications": {
+    "zotero": {
+      "id": "feed-zh@local.zotero",
+      "update_url": "https://feed-zh.invalid/updates.json",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*"
+    }
+  },
+  "icons": { "48": "icon.svg", "96": "icon.svg" }
+}
